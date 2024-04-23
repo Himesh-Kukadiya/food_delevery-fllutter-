@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "shared_preferences": "^1.0.0"
+  }
+}

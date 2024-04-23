@@ -1,0 +1,39 @@
+name: food_delivery_application
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  curved_navigation_bar: ^1.0.3
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_analytics: ^10.8.9
+  flutterfire_cli: ^1.0.0
+  image_picker: ^1.0.8
+  firebase_storage: ^11.6.9
+  random_string: ^2.3.1
+  shared_preferences: ^2.2.3
+  # flutter_stripe: ^10.1.1
+  # http: ^0.13.6
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-SemiBold.ttf
